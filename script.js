@@ -45,10 +45,11 @@ $(document).ready(function () {
     bathroom1.shift();
     bathroom2.shift();
 
-    var arrayOfTenantsLeftAfterBothBathroomDutiesAssigned = bathroom1.concat(bathroom2);
+    var arrayOfTenantsLeftAfterBathrooms = bathroom1.concat(bathroom2);
+    shuffle(arrayOfTenantsLeftAfterBathrooms);
 
     for (var i = 0; i < duties.length; i++) {
-        $("tbody").append("<tr><td class='firstTD'>" + arrayOfTenantsLeftAfterBothBathroomDutiesAssigned[i] + ":</td><td>" + duties[i] + "</td></tr>");
+        $("tbody").append("<tr><td class='firstTD'>" + arrayOfTenantsLeftAfterBathrooms[i] + ":</td><td>" + duties[i] + "</td></tr>");
     }
 
     $("tbody").append("<tr><td class='firstTD'>" + trashHero[0] + ":</td><td>" + "Take trash out to curb on Sundays and back inside on Mondays.  Check dryer filter (every week)" + "</td></tr>");
@@ -60,7 +61,6 @@ $(document).ready(function () {
     function resetDuties() {
         $("tbody").empty();
 
-        //  Check to make sure bathrooms aren't doubled before I send screenshots.
         var bathroom1 = ["Adan Camacho", "Bryan Sanchez", "Robert Centeno"];
         var bathroom2 = ["Eric Spoor", "Ivan Contreras"];
         var trashHero = ["Josh Battaglia"];
@@ -83,10 +83,11 @@ $(document).ready(function () {
         bathroom1.shift();
         bathroom2.shift();
 
-        var arrayOfTenantsLeftAfterBothBathroomDutiesAssigned = bathroom1.concat(bathroom2);
+        var arrayOfTenantsLeftAfterBathrooms = bathroom1.concat(bathroom2);
+        shuffle(arrayOfTenantsLeftAfterBathrooms);
 
         for (var i = 0; i < duties.length; i++) {
-            $("tbody").append("<tr><td class='firstTD'>" + arrayOfTenantsLeftAfterBothBathroomDutiesAssigned[i] + ":</td><td>" + duties[i] + "</td></tr>");
+            $("tbody").append("<tr><td class='firstTD'>" + arrayOfTenantsLeftAfterBathrooms[i] + ":</td><td>" + duties[i] + "</td></tr>");
         }
 
         $("tbody").append("<tr><td class='firstTD'>" + trashHero[0] + ":</td><td>" + "Take trash out to curb on Sundays and back inside on Mondays.  Check dryer filter (every week)" + "</td></tr>");
