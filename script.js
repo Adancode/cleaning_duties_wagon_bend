@@ -24,7 +24,7 @@ function shuffle(array) {
 $(document).ready(function () {
     //  Check to make sure bathrooms aren't doubled before I send screenshots.
     var bathroom1 = ["Bryan Sanchez", "Robert Centeno"];
-    var bathroom2 = ["Ivan Contreras", "Chris Murray"];
+    var bathroom2 = ["Tai Elsner", "Chris Murray", "Matt Shannon"];
     var trashHero = ["Josh Battaglia"];
 
     var duties = ["Wipe down bathroom floor, sink, and toilet (of the bathroom you use, by deposit box).  Empty that bathroom's trash if lid can't swing freely. Spray tub & tub walls with anti-mildew spray and scrub down.  Unclog tub's drains if clogged.", "Wipe down bathroom floor, sink, and toilet (of the bathroom you use, by kitchen).  Empty that bathroom's trash if lid can't swing freely.  Spray tub & tub walls with anti-mildew spray and scrub down. Unclog tub's drains if clogged.", "Sweep common areas (including kitchen), mop specific spots if needed, don't mop everything (dangerous, slippery), only specific spots.", "Wipe down kitchen sink/stove/counters and keep kitchen sink filters clean, replace if needed.  Check fridges for expired items, chuck them.  Make sure dishes don't pile up, and if possible, let Adan know who doesn't clean their own dishes."];
@@ -62,7 +62,7 @@ $(document).ready(function () {
         $("tbody").empty();
 
         var bathroom1 = ["Bryan Sanchez", "Robert Centeno"];
-        var bathroom2 = ["Ivan Contreras", "Chris Murray"];
+        var bathroom2 = ["Tai Elsner", "Chris Murray", "Matt Shannon"];
         var trashHero = ["Josh Battaglia"];
 
         var duties = ["Wipe down bathroom floor, sink, and toilet (of the bathroom you use, by deposit box).  Empty that bathroom's trash if lid can't swing freely. Spray tub & tub walls with anti-mildew spray and scrub down.  Unclog tub's drains if clogged.", "Wipe down bathroom floor, sink, and toilet (of the bathroom you use, by kitchen).  Empty that bathroom's trash if lid can't swing freely.  Spray tub & tub walls with anti-mildew spray and scrub down. Unclog tub's drains if clogged.", "Sweep common areas (including kitchen), mop specific spots if needed, don't mop everything (dangerous, slippery), only specific spots.", "Wipe down kitchen sink/stove/counters and keep kitchen sink filters clean, replace if needed.  Check fridges for expired items, chuck them.  Make sure dishes don't pile up, and if possible, let Adan know who doesn't clean their own dishes."];
